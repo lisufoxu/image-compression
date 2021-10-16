@@ -7,3 +7,6 @@ Upload image and compress using different interpolation methods.
 
 #### Run
 `python App.py`
+
+#### Interpolation methods explained
+- [youtube](https://www.youtube.com/watch?v=fuTYqzWPHGg&ab_channel=0612TVw%2FNERDfirst)

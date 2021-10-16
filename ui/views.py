@@ -14,7 +14,7 @@ from resources import EnglishTranslations
 class MainWindow(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.attributes('-zoomed', True)
+        self.state('zoomed')
         self.lang = EnglishTranslations
         self.handler = MainWindowActionHandler(self)
         self.title(self.lang.title)
